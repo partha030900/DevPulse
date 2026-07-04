@@ -20,14 +20,13 @@ app.use( cors({
 app.use("/api/auth", authRouter);
 app.use("/api/issues", issuesRouter);
 
- app.use(globalErrorHandler);
-
-
 app.get('/', (req: Request, res: Response) => {
      res.status(200).json({
           message: "DevPulse - Internal Tech Issue & Feature Tracker",
           author: "Next Level WebDev"
      })
 });
+ app.use(globalErrorHandler);
+
 
 export default app;
