@@ -3,7 +3,7 @@
 ## Live URL
 
 **Backend API:**
-https://devpulse-partha00.vercel.app?_vercel_share=zEfQK96WKkFnc9EAmkvqXh2SY5ObCo9m
+https://devpulse-partha00.vercel.app
 
 
 ---
